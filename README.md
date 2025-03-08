@@ -1,18 +1,11 @@
-## Getting Started
+**Instrucción:** Desarrolla un programa en Java que genere la secuencia de Fibonacci hasta un límite especificado por el usuario. El programa debe:
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+1. Solicitar al usuario un número entero positivo como límite
+2. Generar y mostrar todos los números de la secuencia de Fibonacci que sean menores o iguales al límite ingresado
+3. Al final, mostrar cuántos números de la secuencia fueron generados y la suma de todos ellos
 
-## Folder Structure
+Recuerda que la secuencia de Fibonacci comienza con 0 y 1, y cada número subsiguiente es la suma de los dos anteriores (0, 1, 1, 2, 3, 5, 8, 13, 21, ...).
 
-The workspace contains two folders by default, where:
+Ejemplo: Si el usuario ingresa 50 como límite, el programa debería mostrar: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34 (10 números generados, suma: 88).
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Planteamiento: Como primer paso debemos solicitar a la persona que ingrese por teclado un numero entero positivo, luego, creamos una condicion donde ese numero sea el limite, dandole la instruccion tambien de la formula matematica que debe manejar para llevar la secuencia correcta de fibonacci, por consiguiente, pedirle que muestre la cantidad de numeros que genero, y la suma de todos ellos. Parece sencillo decirlo pero hacerlo ta como dificil xd.
